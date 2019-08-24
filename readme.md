@@ -21,7 +21,6 @@ where
 
 DATA_TYPE:
 "correlated" corresponds to the low-dimensional simulated data.
-
 "highDim" corresponds to the high-dimensional simulated data. 
 
 NOISE_RATIO:
@@ -33,7 +32,7 @@ DELTA:
 MCMC_SAMPLES:
 number of MCMC samples (10% from those samples are used for burn-in)
 
-EXAMPLE:
+Example:
 	$ /opt/intel/intelpython3/bin/python runLinearRegressionSimData_ModelSearch.py correlated 0.0 proposed 0.5 10000
 
 
