@@ -33,7 +33,8 @@ MCMC_SAMPLES:
 number of MCMC samples (10% from those samples are used for burn-in)
 
 Example:
-	$ /opt/intel/intelpython3/bin/python runLinearRegressionSimData_ModelSearch.py correlated 0.0 proposed 0.5 10000
+
+	$ python runLinearRegressionSimData_ModelSearch.py correlated 0.0 proposed 0.5 10000
 
 
 
