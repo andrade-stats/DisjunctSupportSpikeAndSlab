@@ -6,10 +6,13 @@ Contains the code for variable selection in the linear regression model accordin
 
 Requirements
 ==
-required python packages: numpy, scipy, rpy2
+required python packages: numpy, scipy, rpy2.
+
 The r package imports in "imports.R" are only needed for the baselines.
 
 
+Experiments on simulated data
+==
 In order to run the experiments for the proposed method on the synthethic data set use "runLinearRegressionSimData_ModelSearch.py".
 
 	$ python runLinearRegressionSimData_ModelSearch.py DATA_TYPE NOISE_RATIO porposed DELTA MCMC_SAMPLES
@@ -18,6 +21,7 @@ where
 
 DATA_TYPE:
 "correlated" corresponds to the low-dimensional simulated data.
+
 "highDim" corresponds to the high-dimensional simulated data. 
 
 NOISE_RATIO:
